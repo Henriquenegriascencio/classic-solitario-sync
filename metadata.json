@@ -1,0 +1,6 @@
+{
+  "name": "Paciência Clássico",
+  "description": "Um clássico jogo de cartas Paciência (Klondike) com interface elegante e moderna, alta-fidelidade visual, efeitos sonoros integrados, modos de compra 1 ou 3, estatísticas e animações fluidas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

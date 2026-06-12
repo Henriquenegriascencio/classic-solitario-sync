@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Custom Retro Scrollbar */
+.custom-vintage-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #c0c0c0 #dfdfdf;
+}
+
+.custom-vintage-scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+
+.custom-vintage-scrollbar::-webkit-scrollbar-track {
+  background: #dfdfdf;
+  border-left: 1px solid #808080;
+}
+
+.custom-vintage-scrollbar::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border: 2px solid;
+  border-color: #fff #808080 #808080 #fff;
+  box-shadow: inset 1px 1px 0px #fff;
+}
+
+.custom-vintage-scrollbar::-webkit-scrollbar-thumb:active {
+  background: #b0b0b0;
+  border-color: #808080 #fff #fff #808080;
+  box-shadow: none;
+}
